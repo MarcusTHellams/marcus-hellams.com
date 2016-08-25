@@ -1,6 +1,8 @@
 /* jshint -W119 */
 var express = require('express');
 var exphbs = require('express-handlebars');
+var flash = require('express-flash');
+var validator = require('express-validator');
 var app = express();
 var path = require('path');
 

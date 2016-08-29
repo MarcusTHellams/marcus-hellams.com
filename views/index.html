@@ -13,19 +13,29 @@
 		<link rel="stylesheet" href="">
 	</head>
 	<body>
-		<nav class="white" role="navigation">
-			<div class="nav-wrapper container">
-				<a id="logo-container" href="#" class="brand-logo">Logo</a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="#">Navbar Link</a></li>
-				</ul>
-				<ul id="nav-mobile" class="side-nav">
-					<li><a href="#">Navbar Link</a></li>
-					<li><a href="#">Navbar Link</a></li>
-				</ul>
-				<a href="#" data-activates="nav-mobile" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-			</div>
-		</nav>
+		<div class="navbar-fixed">
+			<nav class="white" role="navigation">
+				<div class="nav-wrapper container center">
+					<!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
+					<ul class="li-no-float li-inline no-wrap hide-on-med-and-down red-text text-accent-4">
+						<!-- <ul class="right hide-on-med-and-down"> -->
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Skillset</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<ul id="nav-mobile" class="side-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Skillset</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<a href="#" data-activates="nav-mobile" class="button-collapse red-text text-accent-4"><i class="material-icons">menu</i></a>
+				</div>
+			</nav>
+		</div>
 		<div id="index-banner" class="parallax-container">
 			<div class="section no-pad-bot">
 				<div class="container">
@@ -35,7 +45,7 @@
 						<h5 class="header col s12 white-text">A Full Stack Web Developer</h5>
 					</div>
 					<div class="row center">
-						<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+						<a href="#" id="download-button" class="btn-large waves-effect waves-light red accent-4">Get Started</a>
 					</div>
 					<br><br>
 				</div>
@@ -47,11 +57,15 @@
 				<!--   Icon Section   -->
 				<div class="row">
 					<div class="col s12 m4">
-						<div class="icon-block">
-							<h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-							<h5 class="center">Speeds up development</h5>
-							<p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/nodejs-icon.svg">
+							</div>
+							<div class="card-content">
+								<h2 class="center red-text text-accent-4">Node.js</h2>
+							</div>
 						</div>
+						
 					</div>
 					<div class="col s12 m4">
 						<div class="icon-block">
